@@ -1,16 +1,15 @@
 [
   {
     "game": "Concord",
-    "appId": null,
     "company": "Sony Interactive Entertainment / Firewalk Studios",
-    "promise_summary": "[Inference] As a paid online shooter, purchasers reasonably expected the game to remain playable/available beyond the immediate launch window.",
-    "delivery_gap_summary": "[Fact] Sony ceased sales, took the game offline starting 2024-09-06, and began full refunds for all PS5 and PC purchasers.",
+    "promise_summary": "[Inference] As a paid, always-online multiplayer shooter, purchasers reasonably expected ongoing access/playability beyond the immediate launch period.",
+    "delivery_gap_summary": "[Fact] Sony ceased sales, announced the game would be taken offline starting 2024-09-06, and began offering full refunds for purchasers on PS5 and PC storefronts.",
     "refund_signal": [
       "publisher-announced full refunds",
       "sales ceased",
       "game taken offline"
     ],
-    "us_relevance": "Sold and refunded via PlayStation Store/Direct and PC storefronts used by U.S. consumers.",
+    "us_relevance": "PlayStation has a US-specific support page for Concord refunds; availability/refunds applied via major US storefronts (PlayStation Store/Direct and Steam).",
     "evidence_strength": "strong",
     "confidence": 95,
     "sources": [
@@ -21,7 +20,19 @@
         "primary": true
       },
       {
+        "url": "https://www.playstation.com/en-us/support/games/concord-support/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
         "url": "https://variety.com/2024/gaming/news/playstation-shuts-down-concord-refund-players-1236128208/",
+        "published_date": "2024-09-03",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.theverge.com/2024/9/3/24234909/sony-concord-ps5-shutdown-poor-sales-launch-pc",
         "published_date": "2024-09-03",
         "accessed_date": "2026-02-20",
         "primary": false
@@ -31,18 +42,17 @@
   },
   {
     "game": "XDefiant",
-    "appId": null,
     "company": "Ubisoft",
-    "promise_summary": "[Inference] Live-service FPS purchasers reasonably expected ongoing access to paid content while the service operated (and clear terms if the service sunset).",
-    "delivery_gap_summary": "[Fact] Ubisoft announced shutdown, stopped new downloads/registrations, servers remain active until 2025-06-03; official communications reference refund processing for eligible purchases.",
+    "promise_summary": "[Fact] Ubisoft positioned XDefiant as a free-to-play shooter with paid packs (e.g., Ultimate Founder's Pack).",
+    "delivery_gap_summary": "[Fact] Ubisoft announced a sunset (no new downloads/registrations) and stated refunds for Ultimate Founder's Pack and certain recent purchases, with servers scheduled through 2025-06-03.",
     "refund_signal": [
-      "official shutdown announcement",
-      "refund processing referenced by official channel",
-      "service end date set"
+      "publisher-announced refunds for specific purchases",
+      "service sunset",
+      "downloads/registrations halted"
     ],
-    "us_relevance": "Available to U.S. players across platforms; Ubisoft communications cover U.S. purchasers as part of global operations.",
-    "evidence_strength": "medium",
-    "confidence": 82,
+    "us_relevance": "Ubisoft published the shutdown/refund message via an en-us newsroom page; major US consumer platforms were involved (console + PC).",
+    "evidence_strength": "strong",
+    "confidence": 92,
     "sources": [
       {
         "url": "https://news.ubisoft.com/en-us/article/2wPUTEuXKpVoCvINTcxvGR/xdefiant-a-message-to-our-community",
@@ -61,21 +71,26 @@
         "published_date": "2024-12-03",
         "accessed_date": "2026-02-20",
         "primary": false
+      },
+      {
+        "url": "https://www.reuters.com/technology/ubisoft-pulls-plug-xdefiant-close-san-francisco-osaka-studios-2024-12-04/",
+        "published_date": "2024-12-04",
+        "accessed_date": "2026-02-20",
+        "primary": false
       }
     ],
     "status": "known"
   },
   {
     "game": "Fortnite: Save the World (macOS refunds)",
-    "appId": null,
     "company": "Epic Games",
-    "promise_summary": "[Fact] Epic sold Save the World packs usable by players on macOS.",
-    "delivery_gap_summary": "[Fact] Epic stated Apple prevented continued offering/support on macOS and announced refunds for players who purchased certain Save the World packs and played on macOS during a defined period.",
+    "promise_summary": "[Fact] Epic sold Save the World access/packs that could be used by players on macOS.",
+    "delivery_gap_summary": "[Fact] Epic stated it could no longer offer/support Save the World on macOS due to Apple-related constraints and announced refunds for certain macOS purchasers in a defined time window.",
     "refund_signal": [
       "publisher-announced targeted refunds",
       "platform support / availability loss"
     ],
-    "us_relevance": "Epic refund notice applies to eligible U.S. consumers who purchased/played on macOS in the specified window.",
+    "us_relevance": "Epic's refund notice is a US-facing page (lang=en-US) and applied to eligible macOS purchasers, including US consumers.",
     "evidence_strength": "strong",
     "confidence": 90,
     "sources": [
@@ -95,22 +110,34 @@
     "status": "known"
   },
   {
-    "game": "Cyberpunk 2077 (PlayStation Store removal refunds)",
-    "appId": 1091500,
-    "company": "CD Projekt Red (refund pathway via Sony/PlayStation Store)",
-    "promise_summary": "[Inference] A full-price AAA game sold for PlayStation consoles implies baseline playability/performance expectations at launch.",
-    "delivery_gap_summary": "[Fact] Sony removed Cyberpunk 2077 from the PlayStation Store and offered refunds to purchasers amid widespread issues and complaints.",
+    "game": "Cyberpunk 2077 (PlayStation Store removal / refunds)",
+    "company": "CD PROJEKT RED (developer/publisher); Sony PlayStation (storefront action)",
+    "promise_summary": "[Inference] A full-price AAA title sold for PlayStation consoles implies baseline playability/performance expectations consistent with marketing and platform quality standards.",
+    "delivery_gap_summary": "[Fact] PlayStation publicly announced refunds and removal from the PlayStation Store amid widespread launch issues; CDPR published an update for PlayStation users and filed an investor/regulatory communication related to Sony's removal decision.",
     "refund_signal": [
       "platform delisting",
-      "storefront refund program/exception"
+      "storefront-wide refunds",
+      "publisher refund guidance"
     ],
-    "us_relevance": "PlayStation Store is a major U.S. distribution channel; refunds were offered to purchasers via Sony's refund process.",
+    "us_relevance": "PlayStation Store is a major US distribution channel; the communications referenced refunds for purchasers via Sony's process.",
     "evidence_strength": "strong",
-    "confidence": 88,
+    "confidence": 90,
     "sources": [
       {
         "url": "https://x.com/AskPlayStation/status/1339737360184078336",
-        "published_date": "2020-12-17",
+        "published_date": "2020-12-18",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.cyberpunk.net/en/news/37166/important-update-for-playstation-users",
+        "published_date": "2020-12-18",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.cdprojekt.com/en/investors/regulatory-announcements/current-report-no-66-2020/",
+        "published_date": "2020-12-18",
         "accessed_date": "2026-02-20",
         "primary": true
       },
@@ -130,16 +157,85 @@
     "status": "known"
   },
   {
-    "game": "The Walking Dead: Betrayal",
-    "appId": 1877320,
-    "company": "Skybound Games / Other Ocean Interactive",
-    "promise_summary": "[Inference] As a paid Early Access multiplayer title, buyers reasonably expected continued access/service for a meaningful period (or a clear path if the service ended).",
-    "delivery_gap_summary": "[Fact] Developers/publisher announced they would stop development, remove the game from Steam, shut it down (2023-12-15), and that all purchasers would receive full refunds (with follow-up guidance for refund requests).",
+    "game": "Warcraft III: Reforged",
+    "company": "Blizzard Entertainment",
+    "promise_summary": "[Inference] Sold/promoted as a 'reforged' Warcraft III experience, implying meaningful upgrades relative to classic Warcraft III.",
+    "delivery_gap_summary": "[Fact] Blizzard maintained a dedicated support article about refunds for Warcraft III: Reforged; multiple outlets reported refunds being broadly available following backlash over delivered quality/features.",
     "refund_signal": [
-      "Steam announcement of full refunds to all purchasers",
-      "delisting + shutdown"
+      "publisher refund support article",
+      "reported broad refund availability"
     ],
-    "us_relevance": "Steam is a major U.S. platform; the announcement states all purchasers are eligible for refunds.",
+    "us_relevance": "Blizzard's us.battle.net support page is US-facing and governs refunds through Blizzard support for US purchasers.",
+    "evidence_strength": "medium",
+    "confidence": 75,
+    "sources": [
+      {
+        "url": "https://us.battle.net/support/en/article/191929",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.videogameschronicle.com/news/warcraft-3-reforged-now-offers-refunds-no-questions-asked/",
+        "published_date": "2020-02-04",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.techradar.com/news/warcraft-3-reforged-players-can-now-get-refunds",
+        "published_date": "2020-02-06",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "The Day Before",
+    "company": "Fntastic (developer) / Mytona (publisher/investor)",
+    "promise_summary": "[Inference] Marketed as a large-scale survival experience; consumer expectations were shaped by extensive pre-release promotion and positioning.",
+    "delivery_gap_summary": "[Fact] Steam news posts and major outlets documented rapid collapse (shutdown/delisting context) and reported efforts to open refunds for purchasers.",
+    "refund_signal": [
+      "Steam primary comms referencing refunds/refund pathway",
+      "reported widespread refunds",
+      "delisting/shutdown context"
+    ],
+    "us_relevance": "Steam sales/refunds apply to US consumers; coverage centered on Steam's refund handling for purchasers.",
+    "evidence_strength": "strong",
+    "confidence": 85,
+    "sources": [
+      {
+        "url": "https://steamcommunity.com/app/1372880/allnews/",
+        "published_date": "2023-12-11",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.engadget.com/how-to-get-a-refund-for-the-day-before-the-game-that-got-canned-in-just-four-days-045153224.html",
+        "published_date": "2023-12-11",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.pcgamer.com/the-day-before-studio-is-closing-down-just-four-day-after-launch-we-did-everything-within-our-power-but-unfortunately-we-miscalculated-our-capabilities/",
+        "published_date": "2023-12-11",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "The Walking Dead: Betrayal",
+    "company": "Skybound Games / Other Ocean Interactive",
+    "promise_summary": "[Inference] As a paid Early Access multiplayer game, purchasers reasonably expected continued availability/service or clear remediation if the service ended.",
+    "delivery_gap_summary": "[Fact] Steam announcements stated development would stop, the game would be removed from Steam, servers would shut down (announced for 2023-12-15), and purchasers would receive full refunds (including follow-up guidance when standard refund limits interfered).",
+    "refund_signal": [
+      "Steam announcement: full refunds",
+      "delisting",
+      "server shutdown"
+    ],
+    "us_relevance": "Steam is widely used by US consumers; refund instructions applied to purchasers generally (including US purchasers).",
     "evidence_strength": "strong",
     "confidence": 93,
     "sources": [
@@ -165,34 +261,219 @@
     "status": "known"
   },
   {
-    "game": "The Day Before",
-    "appId": 1372880,
-    "company": "Fntastic / Mytona",
-    "promise_summary": "[Inference] Marketed expectations (MMO/open-world survival positioning) appear to have materially differed from consumer experience at launch, based on broad reporting.",
-    "delivery_gap_summary": "[Fact (reported)] Publisher statements were reported as working with Steam to open refunds for any players; high refund rate was reported.",
+    "game": "PlanetSide Arena",
+    "company": "Daybreak Game Company",
+    "promise_summary": "[Fact] Sold on Steam as an Early Access title with monetized DLC/virtual currency purchases.",
+    "delivery_gap_summary": "[Fact] A Steam announcement stated the game would shut down and that purchasers of DLC/virtual currency would automatically receive refunds to their Steam Wallet after shutdown.",
     "refund_signal": [
-      "reported refunds beyond standard Steam policy",
-      "delisting/shutdown reporting"
+      "automatic Steam Wallet refunds (DLC/virtual currency)",
+      "service shutdown"
     ],
-    "us_relevance": "Steam sales/refunds are U.S.-relevant; reporting indicates refunds tied to Steam purchasers.",
-    "evidence_strength": "medium",
-    "confidence": 78,
+    "us_relevance": "Steam Wallet refunds apply to US Steam users; the refund announcement was distributed through Steam's official announcement channel.",
+    "evidence_strength": "strong",
+    "confidence": 88,
     "sources": [
       {
-        "url": "https://gameworldobserver.com/2023/12/12/day-before-sales-201k-copies-refunds-delisted-from-steam",
-        "published_date": "2023-12-12",
+        "url": "https://steamcommunity.com/games/987350/announcements/detail/2988632806212615010",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.polygon.com/2019/12/14/21021862/planetside-arena-shuts-down-servers-pc-steam-refunds/",
+        "published_date": "2019-12-14",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Paragon",
+    "company": "Epic Games",
+    "promise_summary": "[Fact] Epic stated it failed to deliver on Paragon's promise (as characterized in Epic's official shutdown communication, reported and quoted by outlets).",
+    "delivery_gap_summary": "[Fact] Epic announced shutdown and offered full refunds for Paragon purchases across platforms with instructions to request refunds.",
+    "refund_signal": [
+      "publisher-funded full refunds",
+      "service shutdown"
+    ],
+    "us_relevance": "Refunds applied across platforms used by US players (PC/PS4) and were administered by Epic's process for eligible purchasers.",
+    "evidence_strength": "strong",
+    "confidence": 85,
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/paragon/comments/7t7734/paragon_to_close_on_april_26/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.polygon.com/2018/1/26/16937922/paragon-offline-date-april-2018/",
+        "published_date": "2018-01-26",
         "accessed_date": "2026-02-20",
         "primary": false
       },
       {
-        "url": "https://gamingbolt.com/the-day-before-taken-off-sale-publisher-working-with-steam-to-issue-refunds-to-anyone-who-wants-one",
-        "published_date": "2023-12-12",
+        "url": "https://www.gamespot.com/articles/fortnite-studio-shutting-down-paragon-refunds-offe/1100-6456378/",
+        "published_date": "2018-01-29",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Fable Legends",
+    "company": "Microsoft / Lionhead Studios",
+    "promise_summary": "[Inference] A live, free-to-play-oriented project where some players purchased in-game currency during beta/testing, implying continued development toward release at the time of sale.",
+    "delivery_gap_summary": "[Fact] Microsoft announced it would cease development; reporting stated players who purchased in-game gold would be offered refunds.",
+    "refund_signal": [
+      "reported refunds for in-game currency",
+      "project cancellation"
+    ],
+    "us_relevance": "Xbox/Microsoft ecosystem is US-relevant; refund handling for purchases would include US participants in the beta who bought currency.",
+    "evidence_strength": "medium",
+    "confidence": 75,
+    "sources": [
+      {
+        "url": "https://news.xbox.com/en-us/2016/03/07/microsoft-studios-changes-uk-denmark/",
+        "published_date": "2016-03-07",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.pcgamer.com/fable-legends-players-will-be-offered-refunds/",
+        "published_date": "2016-03-07",
         "accessed_date": "2026-02-20",
         "primary": false
       },
       {
-        "url": "https://www.radiotimes.com/technology/gaming/the-day-before-what-happened-shutdown/",
-        "published_date": "2023-12-12",
+        "url": "https://www.polygon.com/2016/3/8/11181048/fable-legends-closed-beta-shutting-down-date-refunds/",
+        "published_date": "2016-03-08",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Broomstick League",
+    "company": "Not confirmed in captured sources (Steam delisting/refund announcement used as first-party artifact)",
+    "promise_summary": "[Inference] As a commercially sold multiplayer game across major storefronts, purchasers reasonably expected ongoing availability/access beyond the sale date.",
+    "delivery_gap_summary": "[Fact] A Steam announcement stated the game was being delisted and that full refunds would be offered to existing customers; press coverage reported the delisting/refund move across platforms.",
+    "refund_signal": [
+      "Steam/publisher announcement: full refunds",
+      "delisted"
+    ],
+    "us_relevance": "Steam/console storefronts are major US distribution channels; the refund announcement was not limited to a non-US region in the captured materials.",
+    "evidence_strength": "medium",
+    "confidence": 70,
+    "sources": [
+      {
+        "url": "https://steamcommunity.com/games/972660/announcements/detail/2898585530113850703",
+        "published_date": "2020-09-22",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.playstationlifestyle.net/2020/09/22/broomstick-league-delisted-ps4-xbox-one-pc-full-refunds/",
+        "published_date": "2020-09-22",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Warhammer 40,000: Space Marine - Master Crafted Edition",
+    "company": "Not confirmed in captured sources (Steam announcement publisher/developer not captured in snippet set)",
+    "promise_summary": "[Inference] Marketed as an upgraded/new edition relative to an older release, implying additional value versus the baseline product.",
+    "delivery_gap_summary": "[Fact] A Steam announcement offered an extended refund window (including beyond typical playtime constraints) within a defined period, alongside upgrade/discount adjustments; the captured evidence ties this primarily to value/pricing concerns rather than a clearly documented missing-feature claim.",
+    "refund_signal": [
+      "platform/publisher refund exception (time-limited)",
+      "extended refund window beyond standard policy"
+    ],
+    "us_relevance": "Steam is a major US storefront; the refund window and instructions applied to Steam purchasers (including US purchasers).",
+    "evidence_strength": "medium",
+    "confidence": 60,
+    "sources": [
+      {
+        "url": "https://steamcommunity.com/app/55150/announcements/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://comicbook.com/gaming/news/warhammer-40k-space-marine-remastered-full-refund/",
+        "published_date": "2025-06-28",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Crucible",
+    "company": "Amazon Game Studios / Relentless Studios",
+    "promise_summary": "[Inference] Live-service shooter positioning implies ongoing development/support and a continued operating service during its commercial life.",
+    "delivery_gap_summary": "[Fact (reported)] Multiple reputable outlets reported Amazon ended development and offered full refunds for in-game purchases following shutdown.",
+    "refund_signal": [
+      "reported refunds for in-game purchases",
+      "service ended / development stopped"
+    ],
+    "us_relevance": "Amazon Game Studios is US-based; reported refund handling applied to players using major US-accessible PC platforms.",
+    "evidence_strength": "weak",
+    "confidence": 70,
+    "sources": [
+      {
+        "url": "https://www.pcgamer.com/amazon-is-giving-up-on-crucible-offering-full-refunds/",
+        "published_date": "2020-10-09",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.engadget.com/amazon-cancels-crucible-003348633.html",
+        "published_date": "2020-10-10",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.videogameschronicle.com/news/amazon-confirms-it-will-shut-down-its-flagship-shooter-crucible-months-after-release/",
+        "published_date": "2020-10-10",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "The Culling 2",
+    "company": "Xaviant",
+    "promise_summary": "[Inference] As a commercial sequel, purchasers reasonably expected a viable successor experience and continued availability beyond launch week.",
+    "delivery_gap_summary": "[Fact (reported)] Multiple outlets reported the developer coordinated pulling the game from sale shortly after launch and that refunds were offered/processed for purchasers.",
+    "refund_signal": [
+      "reported refunds",
+      "rapid delisting/removal from sale"
+    ],
+    "us_relevance": "The game was sold through major storefronts used by US consumers (e.g., Steam/console) and covered by major US gaming press.",
+    "evidence_strength": "weak",
+    "confidence": 75,
+    "sources": [
+      {
+        "url": "https://www.polygon.com/2018/7/18/17587088/the-culling-2-launch-takedown-xaviant/",
+        "published_date": "2018-07-18",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.gamespot.com/articles/new-battle-royale-game-removed-from-sale-after-a-w/1100-6460492/",
+        "published_date": "2018-07-20",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://variety.com/2018/gaming/news/the-culling-2-pulled-from-steam-1202877203/",
+        "published_date": "2018-07-18",
         "accessed_date": "2026-02-20",
         "primary": false
       }
@@ -201,15 +482,14 @@
   },
   {
     "game": "Redfall (Bite Back Edition / Hero Pass refunds)",
-    "appId": 1294810,
-    "company": "Bethesda Softworks / Arkane Austin / Microsoft storefront",
-    "promise_summary": "[Fact (reported)] Premium edition/upgrade included future content (Hero Pass / additional heroes).",
-    "delivery_gap_summary": "[Fact (reported)] Following studio closure and cancellation of planned content, multiple outlets report Microsoft began issuing refunds for Bite Back / Hero Pass purchases.",
+    "company": "Bethesda Softworks / Arkane Austin",
+    "promise_summary": "[Fact (reported)] Premium edition/upgrade (Bite Back / Hero Pass) was described as including future content such as additional heroes.",
+    "delivery_gap_summary": "[Fact (reported)] Following cancellation of planned content, multiple outlets reported refunds being issued for Bite Back / Hero Pass purchases.",
     "refund_signal": [
       "reported automatic refunds",
       "canceled premium content"
     ],
-    "us_relevance": "U.S. players purchasing via Microsoft Store/Xbox are directly implicated in reported refund rollouts.",
+    "us_relevance": "Coverage specifically referenced refunds via Xbox/Microsoft and Steam channels used by US purchasers.",
     "evidence_strength": "medium",
     "confidence": 80,
     "sources": [
@@ -228,6 +508,40 @@
       {
         "url": "https://www.techradar.com/gaming/consoles-pc/xbox-begins-refunding-players-who-bought-redfalls-bite-back-edition-dlc",
         "published_date": "2024-06-21",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "Star Wars: Knights of the Old Republic II (Switch) - Restored Content DLC cancellation",
+    "company": "Aspyr Media",
+    "promise_summary": "[Fact (reported)] The Restored Content DLC was announced for the Nintendo Switch version, shaping purchase expectations around future content delivery.",
+    "delivery_gap_summary": "[Fact (reported)] Coverage stated the DLC would not move forward; reporting also described a compensation offer for certain purchasers and subsequent litigation pressure.",
+    "refund_signal": [
+      "compensation offer (reported)",
+      "litigation pressure (reported)"
+    ],
+    "us_relevance": "Nintendo Switch is a major US consumer platform; the reported litigation/consumer relief framing is US-relevant.",
+    "evidence_strength": "weak",
+    "confidence": 65,
+    "sources": [
+      {
+        "url": "https://www.gamespot.com/articles/star-wars-kotor-2-restored-content-dlc-canceled-on-switch/1100-6514788/",
+        "published_date": "2023-06-05",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://nintendoeverything.com/star-wars-knights-of-the-old-republic-ii-restored-content-dlc-cancelled-on-switch/",
+        "published_date": "2023-06-02",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.axios.com/2023/11/16/star-wars-aspyr-kotor-2-lawsuit",
+        "published_date": "2023-11-16",
         "accessed_date": "2026-02-20",
         "primary": false
       }

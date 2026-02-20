@@ -3,6 +3,7 @@
 Not legal advice. We are not lawyers. This project generates draft documents and organizes evidence; it does not provide legal representation, cannot file claims for you, cannot sign for you, and does not guarantee any outcome.
 
 ## What exists (Phase 1)
+- Frontpage watchlist table of refundable/candidate games across platforms
 - Steam OpenID sign-in
 - Fetch owned games via Steam Web API (`IPlayerService/GetOwnedGames?include_appinfo=1`)
 - Dashboard with a TanStack Table showing games + estimated store price (by jurisdiction)
@@ -49,6 +50,7 @@ Not legal advice. We are not lawyers. This project generates draft documents and
 ```bash
 pnpm install --store-dir .pnpm-store
 pnpm db:migrate
+pnpm db:seed:catalog
 pnpm dev
 ```
 
