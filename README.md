@@ -12,7 +12,7 @@ Not legal advice. We are not lawyers. This project generates draft documents and
 - Tailwind + shadcn/ui primitives + TanStack Table
 - Backend: Next.js route handlers
 - DB: Supabase (planned in later phases)
-- Agents: LangGraph (planned; skeleton included)
+- AI workflow: Gemini-only step runner (single API key)
 
 ## Local setup
 
@@ -27,6 +27,8 @@ Not legal advice. We are not lawyers. This project generates draft documents and
    - `AUTH_SECRET` (long random string)
    - `APP_BASE_URL` (e.g. `http://localhost:3000`)
    - `STEAM_WEB_API_KEY`
+   - `GEMINI_API_KEY`
+   - `GEMINI_MODEL` (optional)
 
 ### Install + run
 ```bash

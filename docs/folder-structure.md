@@ -11,9 +11,6 @@
 ├─ supabase/
 │  └─ schema.sql
 ├─ src/
-│  ├─ agents/
-│  │  ├─ swarm-graph.ts
-│  │  └─ tools.ts
 │  ├─ app/
 │  │  ├─ api/
 │  │  │  ├─ auth/
@@ -44,12 +41,15 @@
 │  │     ├─ select.tsx
 │  │     └─ table.tsx
 │  ├─ lib/
+│  │  ├─ ai/gemini.ts
 │  │  ├─ auth/session.ts
 │  │  ├─ jurisdiction.ts
 │  │  └─ steam/
 │  │     ├─ api.ts
 │  │     ├─ openid.ts
 │  │     └─ store.ts
+│  ├─ workflows/
+│  │  └─ gemini-swarm.ts
 │  └─ lib/utils.ts
 ├─ .env.example
 ├─ .eslintrc.json

@@ -8,25 +8,29 @@ flowchart TD
   WEB --> DB[(Supabase Postgres)]
   WEB --> PAY[Stripe Checkout + Webhooks]
   WEB --> EMAIL[Resend/Postmark]
+  WEB --> GEMINI[Gemini API]
 
-  subgraph SWARM[LangGraph Agent Swarm]
-    ORCH[Orchestrator]
-    SCRAPE[Scraper Agent]
-    LEGAL[Legal Analyst Agent]
-    DRAFT[Letter Drafter Agent]
-    FILE[Filing Agent]
-    ORCH --> SCRAPE --> LEGAL --> DRAFT --> FILE
+  subgraph SWARM[Gemini Workflow Runner]
+    QUEUE[Claim Job Queue]
+    RUNNER[Step Runner]
+    SCRAPE[Scraper Step]
+    LEGAL[Legal Mapping Step]
+    DRAFT[Letter Drafting Step]
+    FILE[Filing Packet Step]
+    QUEUE --> RUNNER --> SCRAPE --> LEGAL --> DRAFT --> FILE
   end
 
-  WEB -->|enqueue job| ORCH
+  WEB -->|enqueue job| QUEUE
   SCRAPE -->|Playwright| BROWSER[Web scraping]
   SCRAPE -->|Serper/Tavily| SEARCH[Search API]
+  LEGAL -->|structured prompts| GEMINI
+  DRAFT -->|structured prompts| GEMINI
+  FILE -->|structured prompts| GEMINI
   LEGAL -->|EU/UK law corpus| LAW[(Law text store)]
   DRAFT -->|PDF renderer| PDF[PDF Generator]
   FILE -->|Form templates| FORMS[(Jurisdiction templates)]
 
-  ORCH -->|progress + artifacts| DB
+  RUNNER -->|progress + artifacts| DB
   PDF --> DB
   WEB -->|progress UI| U
 ```
-

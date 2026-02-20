@@ -29,7 +29,7 @@ This document restates every requirement in the provided prompt and flags feasib
 - Phase 1 implemented: Steam sign-in, owned-games fetch, jurisdiction selection, game table (with estimated store price), and a placeholder “Launch Swarm”.
 - Phase 2+ planned: payments, progress dashboard, LBA PDF, 14‑day timer, and court packet generation.
 
-## Background agent swarm (LangGraph or CrewAI)
+## Background agent swarm (Gemini-only runner)
 **Must design a multi-agent system with at least:**
 - Scraper Agent: Steam news + Selenium/Playwright + Serper/Tavily to scrape Steam announcements; dev Twitter/X; YouTube trailers (transcripts); E3 press releases; roadmap PDFs.
 - Legal Analyst Agent: map promises → EU Digital Content Directive 2019/770 + UK CRA 2015. Output cited paragraphs.
@@ -60,9 +60,9 @@ This document restates every requirement in the provided prompt and flags feasib
 ## Tech stack (exact stack for MVP)
 - Frontend: Next.js 15 (App Router) + TypeScript + Tailwind + shadcn/ui + TanStack Table
 - Auth: Steam OpenID (openid-client or next-auth w/ Steam provider)
-- Backend: Next.js API routes + LangGraph (or CrewAI)
+- Backend: Next.js API routes + queued step runner
 - DB: Supabase (Postgres)
-- AI: OpenRouter (or Anthropic + Grok) w/ structured outputs
+- AI: Gemini with structured outputs
 - Scraping: Playwright + Serper.dev or Tavily
 - PDF: `@react-pdf/renderer` or `pdf-lib`
 - Emails: Resend or Postmark
@@ -78,6 +78,6 @@ This document restates every requirement in the provided prompt and flags feasib
 3. Architecture diagram (Mermaid)
 4. Step-by-step implementation plan (phased)
 5. All code for Phase 1 (Steam login + owned games table)
-6. Agent graph definition (LangGraph) with tools
+6. Gemini workflow definition with tools
 7. Sample Letter Before Action template with placeholders
 8. List of every legal disclaimer text needed

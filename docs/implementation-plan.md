@@ -49,15 +49,15 @@ Not legal advice. This plan assumes you will have counsel review the UX copy, di
    - Secure screenshot uploads to Supabase Storage
    - Virus scanning hook (or a provider) + file type/size limits
 
-## Phase 3 — Swarm foundation (LangGraph)
+## Phase 3 — Swarm foundation (Gemini-only workflow runner)
 1. Define a single `ClaimState` shape that all agents read/write.
-2. Implement orchestrator graph:
+2. Implement deterministic step pipeline:
    - `scrape_marketing` → `extract_promises` → `legal_mapping` → `draft_letter` → `assemble_bundle`
 3. Tooling:
    - Search: Serper or Tavily
    - Browser: Playwright (headless)
    - Storage: Supabase (artifacts + logs)
-   - LLM: OpenRouter with structured outputs (Zod schemas)
+   - LLM: Gemini with structured outputs (Zod schemas)
 4. Safety:
    - Source allowlist + ToS-aware scraping.
    - “Do not hallucinate citations”: every claim must map to stored evidence IDs.
