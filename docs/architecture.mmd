@@ -5,7 +5,7 @@ flowchart TD
   WEB -->|GetOwnedGames include_appinfo=1| STEAMAPI[Steam Web API]
   WEB -->|appdetails price estimate| STEAMSTORE[Steam Store API (estimate)]
 
-  WEB --> DB[(Supabase Postgres)]
+  WEB --> DB[(Self-hosted PostgreSQL)]
   WEB --> PAY[Stripe Checkout + Webhooks]
   WEB --> EMAIL[Resend/Postmark]
   WEB --> GEMINI[Gemini API]

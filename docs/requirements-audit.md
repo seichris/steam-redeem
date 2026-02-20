@@ -61,7 +61,7 @@ This document restates every requirement in the provided prompt and flags feasib
 - Frontend: Next.js 15 (App Router) + TypeScript + Tailwind + shadcn/ui + TanStack Table
 - Auth: Steam OpenID (openid-client or next-auth w/ Steam provider)
 - Backend: Next.js API routes + queued step runner
-- DB: Supabase (Postgres)
+- DB: self-hosted PostgreSQL
 - AI: Gemini with structured outputs
 - Scraping: Playwright + Serper.dev or Tavily
 - PDF: `@react-pdf/renderer` or `pdf-lib`

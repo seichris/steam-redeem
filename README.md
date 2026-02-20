@@ -11,7 +11,7 @@ Not legal advice. We are not lawyers. This project generates draft documents and
 - Next.js 15 (App Router) + TypeScript
 - Tailwind + shadcn/ui primitives + TanStack Table
 - Backend: Next.js route handlers
-- DB: Supabase (planned in later phases)
+- DB: self-hosted PostgreSQL (`DATABASE_URL`)
 - AI workflow: Gemini-only step runner (single API key)
 
 ## Local setup
@@ -27,12 +27,28 @@ Not legal advice. We are not lawyers. This project generates draft documents and
    - `AUTH_SECRET` (long random string)
    - `APP_BASE_URL` (e.g. `http://localhost:3000`)
    - `STEAM_WEB_API_KEY`
-   - `GEMINI_API_KEY`
-   - `GEMINI_MODEL` (optional)
+   - `DATABASE_URL`
+   - `DATABASE_SSL` (`true` if your provider requires SSL)
+   - `GEMINI_PROVIDER` (`google_ai`, `vertex_express`, or `vertex`)
+   - `GEMINI_MODEL` (`gemini-3-flash` or `gemini-3.1-pro`)
+   - `GEMINI_API_KEY` (for `google_ai` and usually `vertex_express`)
+   - `GEMINI_VERTEX_PROJECT` + `GEMINI_VERTEX_LOCATION` (for `vertex`)
+
+### Gemini provider modes
+- `google_ai`:
+  - Fastest setup, API key only.
+  - Endpoint family: `generativelanguage.googleapis.com`.
+- `vertex_express`:
+  - Vertex endpoint with API key, no project-scoped auth flow.
+  - Endpoint family: `aiplatform.googleapis.com/v1/publishers/google/models/...`.
+- `vertex`:
+  - Full Vertex project-scoped endpoint with OAuth/ADC auth.
+  - Requires `GEMINI_VERTEX_PROJECT`; uses service account credentials on host.
 
 ### Install + run
 ```bash
 pnpm install --store-dir .pnpm-store
+pnpm db:migrate
 pnpm dev
 ```
 

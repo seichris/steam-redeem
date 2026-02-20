@@ -23,7 +23,7 @@ Not legal advice. This plan assumes you will have counsel review the UX copy, di
    - Templates must be “draft” and require user review/confirmation.
 4. **Privacy/GDPR program**:
    - Data inventory, retention windows, deletion workflow, DSAR process.
-   - Secure storage for uploads (Supabase Storage) with expiring links.
+   - Secure storage for uploads (MinIO/S3-compatible bucket) with expiring links.
 5. **Evidence integrity**:
    - Store source URLs, timestamps, hashed excerpts, and (where allowed) screenshots/PDF captures.
 
@@ -37,7 +37,7 @@ Not legal advice. This plan assumes you will have counsel review the UX copy, di
 7. “Launch Swarm” routes to placeholder page.
 
 ## Phase 2 — Payments + claim records
-1. Supabase schema:
+1. PostgreSQL schema:
    - `users` (steamId, email opt-in, consent flags)
    - `claims` (userId, appId, jurisdiction, status, timestamps, disclaimersAcceptedAt)
    - `artifacts` (evidence bundle refs, PDFs, hashes)
@@ -46,7 +46,7 @@ Not legal advice. This plan assumes you will have counsel review the UX copy, di
    - One-time product per “game swarm”
    - Webhook to activate the claim + enqueue swarm run
 3. Upload pipeline:
-   - Secure screenshot uploads to Supabase Storage
+   - Secure screenshot uploads to object storage (MinIO/S3-compatible)
    - Virus scanning hook (or a provider) + file type/size limits
 
 ## Phase 3 — Swarm foundation (Gemini-only workflow runner)
@@ -56,7 +56,7 @@ Not legal advice. This plan assumes you will have counsel review the UX copy, di
 3. Tooling:
    - Search: Serper or Tavily
    - Browser: Playwright (headless)
-   - Storage: Supabase (artifacts + logs)
+   - Storage: PostgreSQL + object storage (artifacts + logs)
    - LLM: Gemini with structured outputs (Zod schemas)
 4. Safety:
    - Source allowlist + ToS-aware scraping.

@@ -8,11 +8,15 @@
 │  ├─ legal-process-research.md
 │  ├─ letter-before-action-template.md
 │  └─ requirements-audit.md
-├─ supabase/
-│  └─ schema.sql
+├─ db/
+│  └─ migrations/
+│     └─ 0001_init.sql
+├─ scripts/
+│  └─ migrate.js
 ├─ src/
 │  ├─ app/
 │  │  ├─ api/
+│  │  │  ├─ health/db/route.ts
 │  │  │  ├─ auth/
 │  │  │  │  ├─ logout/route.ts
 │  │  │  │  └─ steam/
@@ -43,6 +47,7 @@
 │  ├─ lib/
 │  │  ├─ ai/gemini.ts
 │  │  ├─ auth/session.ts
+│  │  ├─ db/pool.ts
 │  │  ├─ jurisdiction.ts
 │  │  └─ steam/
 │  │     ├─ api.ts
