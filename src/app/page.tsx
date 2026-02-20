@@ -19,6 +19,12 @@ type CatalogGameRow = {
   evidence_strength: string;
   confidence: number;
   steam_app_id: number | null;
+  sources: unknown;
+};
+
+type SourceRef = {
+  url: string;
+  hostname: string;
 };
 
 function isUndefinedTableError(error: unknown) {
@@ -36,11 +42,40 @@ function titleize(value: string) {
     .replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
+function extractSourceRefs(raw: unknown): SourceRef[] {
+  if (!Array.isArray(raw)) return [];
+
+  const seen = new Set<string>();
+  const refs: SourceRef[] = [];
+
+  for (const entry of raw) {
+    if (!entry || typeof entry !== "object") continue;
+    const urlRaw = (entry as { url?: unknown }).url;
+    if (typeof urlRaw !== "string") continue;
+
+    try {
+      const parsed = new URL(urlRaw);
+      if (parsed.protocol !== "https:" && parsed.protocol !== "http:") continue;
+      if (seen.has(parsed.href)) continue;
+      seen.add(parsed.href);
+      refs.push({ url: parsed.href, hostname: parsed.hostname });
+    } catch {
+      // ignore malformed source URLs from seed data
+    }
+  }
+
+  return refs;
+}
+
+function faviconForHost(hostname: string) {
+  return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(hostname)}&sz=32`;
+}
+
 async function loadCatalogGames() {
   try {
     const result = await query<CatalogGameRow>(
       `
-        select game, company, status, evidence_strength, confidence, steam_app_id
+        select game, company, status, evidence_strength, confidence, steam_app_id, sources
         from refundable_catalog_games
         order by
           case evidence_strength
@@ -139,27 +174,57 @@ export default async function HomePage({
                     <TableHead>Evidence</TableHead>
                     <TableHead>Confidence</TableHead>
                     <TableHead>On Steam</TableHead>
+                    <TableHead>Sources</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   {catalogGames.length > 0 ? (
-                    catalogGames.map((game) => (
-                      <TableRow key={`${game.game}:${game.company}`}>
-                        <TableCell className="font-medium text-slate-900">{game.game}</TableCell>
-                        <TableCell>{game.company}</TableCell>
-                        <TableCell>
-                          <Badge variant="secondary">{titleize(game.status)}</Badge>
-                        </TableCell>
-                        <TableCell>{titleize(game.evidence_strength)}</TableCell>
-                        <TableCell>{Math.round(game.confidence * 100)}%</TableCell>
-                        <TableCell>
-                          {game.steam_app_id ? `Yes (${game.steam_app_id})` : "No / Unknown"}
-                        </TableCell>
-                      </TableRow>
-                    ))
+                    catalogGames.map((game) => {
+                      const sourceRefs = extractSourceRefs(game.sources);
+                      return (
+                        <TableRow key={`${game.game}:${game.company}`}>
+                          <TableCell className="font-medium text-slate-900">{game.game}</TableCell>
+                          <TableCell>{game.company}</TableCell>
+                          <TableCell>
+                            <Badge variant="secondary">{titleize(game.status)}</Badge>
+                          </TableCell>
+                          <TableCell>{titleize(game.evidence_strength)}</TableCell>
+                          <TableCell>{Math.round(game.confidence * 100)}%</TableCell>
+                          <TableCell>
+                            {game.steam_app_id ? `Yes (${game.steam_app_id})` : "No / Unknown"}
+                          </TableCell>
+                          <TableCell>
+                            {sourceRefs.length > 0 ? (
+                              <div className="flex items-center gap-2">
+                                {sourceRefs.slice(0, 6).map((source) => (
+                                  <a
+                                    key={`${game.game}:${source.url}`}
+                                    href={source.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    title={source.hostname}
+                                    aria-label={`Open source ${source.hostname}`}
+                                    className="inline-flex h-6 w-6 items-center justify-center overflow-hidden rounded border bg-white"
+                                  >
+                                    <img
+                                      src={faviconForHost(source.hostname)}
+                                      alt=""
+                                      width={16}
+                                      height={16}
+                                    />
+                                  </a>
+                                ))}
+                              </div>
+                            ) : (
+                              <span className="text-slate-500">-</span>
+                            )}
+                          </TableCell>
+                        </TableRow>
+                      );
+                    })
                   ) : (
                     <TableRow>
-                      <TableCell colSpan={6} className="h-24 text-center text-slate-500">
+                      <TableCell colSpan={7} className="h-24 text-center text-slate-500">
                         No games loaded yet.
                       </TableCell>
                     </TableRow>
