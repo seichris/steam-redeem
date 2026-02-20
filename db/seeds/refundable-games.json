@@ -1,0 +1,237 @@
+[
+  {
+    "game": "Concord",
+    "appId": null,
+    "company": "Sony Interactive Entertainment / Firewalk Studios",
+    "promise_summary": "[Inference] As a paid online shooter, purchasers reasonably expected the game to remain playable/available beyond the immediate launch window.",
+    "delivery_gap_summary": "[Fact] Sony ceased sales, took the game offline starting 2024-09-06, and began full refunds for all PS5 and PC purchasers.",
+    "refund_signal": [
+      "publisher-announced full refunds",
+      "sales ceased",
+      "game taken offline"
+    ],
+    "us_relevance": "Sold and refunded via PlayStation Store/Direct and PC storefronts used by U.S. consumers.",
+    "evidence_strength": "strong",
+    "confidence": 95,
+    "sources": [
+      {
+        "url": "https://blog.playstation.com/2024/09/03/an-important-update-on-concord/",
+        "published_date": "2024-09-03",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://variety.com/2024/gaming/news/playstation-shuts-down-concord-refund-players-1236128208/",
+        "published_date": "2024-09-03",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "XDefiant",
+    "appId": null,
+    "company": "Ubisoft",
+    "promise_summary": "[Inference] Live-service FPS purchasers reasonably expected ongoing access to paid content while the service operated (and clear terms if the service sunset).",
+    "delivery_gap_summary": "[Fact] Ubisoft announced shutdown, stopped new downloads/registrations, servers remain active until 2025-06-03; official communications reference refund processing for eligible purchases.",
+    "refund_signal": [
+      "official shutdown announcement",
+      "refund processing referenced by official channel",
+      "service end date set"
+    ],
+    "us_relevance": "Available to U.S. players across platforms; Ubisoft communications cover U.S. purchasers as part of global operations.",
+    "evidence_strength": "medium",
+    "confidence": 82,
+    "sources": [
+      {
+        "url": "https://news.ubisoft.com/en-us/article/2wPUTEuXKpVoCvINTcxvGR/xdefiant-a-message-to-our-community",
+        "published_date": "2024-12-03",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://x.com/PlayXDefiant/status/1864092633561481249?lang=en",
+        "published_date": "2024-12-03",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.theverge.com/2024/12/3/24312584/ubisoft-xdefiant-shutting-down-refunds",
+        "published_date": "2024-12-03",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Fortnite: Save the World (macOS refunds)",
+    "appId": null,
+    "company": "Epic Games",
+    "promise_summary": "[Fact] Epic sold Save the World packs usable by players on macOS.",
+    "delivery_gap_summary": "[Fact] Epic stated Apple prevented continued offering/support on macOS and announced refunds for players who purchased certain Save the World packs and played on macOS during a defined period.",
+    "refund_signal": [
+      "publisher-announced targeted refunds",
+      "platform support / availability loss"
+    ],
+    "us_relevance": "Epic refund notice applies to eligible U.S. consumers who purchased/played on macOS in the specified window.",
+    "evidence_strength": "strong",
+    "confidence": 90,
+    "sources": [
+      {
+        "url": "https://www.fortnite.com/news/apple-ends-epics-ability-to-offer-fortnite-save-the-world-on-mac?lang=en-US",
+        "published_date": "2020-09-17",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://www.theverge.com/2020/9/18/21445092/fortnite-apple-save-the-world-macos-shutting-down-epic-games",
+        "published_date": "2020-09-18",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Cyberpunk 2077 (PlayStation Store removal refunds)",
+    "appId": 1091500,
+    "company": "CD Projekt Red (refund pathway via Sony/PlayStation Store)",
+    "promise_summary": "[Inference] A full-price AAA game sold for PlayStation consoles implies baseline playability/performance expectations at launch.",
+    "delivery_gap_summary": "[Fact] Sony removed Cyberpunk 2077 from the PlayStation Store and offered refunds to purchasers amid widespread issues and complaints.",
+    "refund_signal": [
+      "platform delisting",
+      "storefront refund program/exception"
+    ],
+    "us_relevance": "PlayStation Store is a major U.S. distribution channel; refunds were offered to purchasers via Sony's refund process.",
+    "evidence_strength": "strong",
+    "confidence": 88,
+    "sources": [
+      {
+        "url": "https://x.com/AskPlayStation/status/1339737360184078336",
+        "published_date": "2020-12-17",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://techcrunch.com/2020/12/18/sony-pulls-cyberpunk-2077-from-playstation-store-after-bugs-complaints-offers-refund/",
+        "published_date": "2020-12-18",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.theguardian.com/games/2020/dec/18/cyberpunk-2077-sony-pulls-game-from-playstation-store-after-complaints",
+        "published_date": "2020-12-18",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "The Walking Dead: Betrayal",
+    "appId": 1877320,
+    "company": "Skybound Games / Other Ocean Interactive",
+    "promise_summary": "[Inference] As a paid Early Access multiplayer title, buyers reasonably expected continued access/service for a meaningful period (or a clear path if the service ended).",
+    "delivery_gap_summary": "[Fact] Developers/publisher announced they would stop development, remove the game from Steam, shut it down (2023-12-15), and that all purchasers would receive full refunds (with follow-up guidance for refund requests).",
+    "refund_signal": [
+      "Steam announcement of full refunds to all purchasers",
+      "delisting + shutdown"
+    ],
+    "us_relevance": "Steam is a major U.S. platform; the announcement states all purchasers are eligible for refunds.",
+    "evidence_strength": "strong",
+    "confidence": 93,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1701968401&feed=steam_community_announcements",
+        "published_date": "2023-12-07",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://steamcommunity.com/app/1877320/eventcomments/4040355128960149257?ctp=5&l=english&snr=2_groupannouncements_detail_",
+        "published_date": "2023-12-07",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      },
+      {
+        "url": "https://store.steampowered.com/news/app/1877320/view/3893988141067355364?l=indonesian",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-20",
+        "primary": true
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "The Day Before",
+    "appId": 1372880,
+    "company": "Fntastic / Mytona",
+    "promise_summary": "[Inference] Marketed expectations (MMO/open-world survival positioning) appear to have materially differed from consumer experience at launch, based on broad reporting.",
+    "delivery_gap_summary": "[Fact (reported)] Publisher statements were reported as working with Steam to open refunds for any players; high refund rate was reported.",
+    "refund_signal": [
+      "reported refunds beyond standard Steam policy",
+      "delisting/shutdown reporting"
+    ],
+    "us_relevance": "Steam sales/refunds are U.S.-relevant; reporting indicates refunds tied to Steam purchasers.",
+    "evidence_strength": "medium",
+    "confidence": 78,
+    "sources": [
+      {
+        "url": "https://gameworldobserver.com/2023/12/12/day-before-sales-201k-copies-refunds-delisted-from-steam",
+        "published_date": "2023-12-12",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://gamingbolt.com/the-day-before-taken-off-sale-publisher-working-with-steam-to-issue-refunds-to-anyone-who-wants-one",
+        "published_date": "2023-12-12",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.radiotimes.com/technology/gaming/the-day-before-what-happened-shutdown/",
+        "published_date": "2023-12-12",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "Redfall (Bite Back Edition / Hero Pass refunds)",
+    "appId": 1294810,
+    "company": "Bethesda Softworks / Arkane Austin / Microsoft storefront",
+    "promise_summary": "[Fact (reported)] Premium edition/upgrade included future content (Hero Pass / additional heroes).",
+    "delivery_gap_summary": "[Fact (reported)] Following studio closure and cancellation of planned content, multiple outlets report Microsoft began issuing refunds for Bite Back / Hero Pass purchases.",
+    "refund_signal": [
+      "reported automatic refunds",
+      "canceled premium content"
+    ],
+    "us_relevance": "U.S. players purchasing via Microsoft Store/Xbox are directly implicated in reported refund rollouts.",
+    "evidence_strength": "medium",
+    "confidence": 80,
+    "sources": [
+      {
+        "url": "https://www.windowscentral.com/gaming/xbox/microsoft-has-begun-sending-out-refunds-for-the-xbox-and-steam-digital-versions-of-redfalls-bite-back-edition",
+        "published_date": "2024-06-19",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.neowin.net/news/refunds-for-people-who-bought-redfalls-bite-back-edition-or-upgrade-are-now-being-sent-out/",
+        "published_date": "2024-06-20",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      },
+      {
+        "url": "https://www.techradar.com/gaming/consoles-pc/xbox-begins-refunding-players-who-bought-redfalls-bite-back-edition-dlc",
+        "published_date": "2024-06-21",
+        "accessed_date": "2026-02-20",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  }
+]

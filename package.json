@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "db:migrate": "node scripts/migrate.js"
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed:refundable": "node scripts/seed-refundable-games.js"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.1",
