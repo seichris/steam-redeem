@@ -1,0 +1,32 @@
+```mermaid
+flowchart TD
+  U[User] -->|Sign in| WEB[Next.js 15 App (Vercel)]
+  WEB -->|OpenID 2.0 redirect + verify| STEAMOID[Steam OpenID]
+  WEB -->|GetOwnedGames include_appinfo=1| STEAMAPI[Steam Web API]
+  WEB -->|appdetails price estimate| STEAMSTORE[Steam Store API (estimate)]
+
+  WEB --> DB[(Supabase Postgres)]
+  WEB --> PAY[Stripe Checkout + Webhooks]
+  WEB --> EMAIL[Resend/Postmark]
+
+  subgraph SWARM[LangGraph Agent Swarm]
+    ORCH[Orchestrator]
+    SCRAPE[Scraper Agent]
+    LEGAL[Legal Analyst Agent]
+    DRAFT[Letter Drafter Agent]
+    FILE[Filing Agent]
+    ORCH --> SCRAPE --> LEGAL --> DRAFT --> FILE
+  end
+
+  WEB -->|enqueue job| ORCH
+  SCRAPE -->|Playwright| BROWSER[Web scraping]
+  SCRAPE -->|Serper/Tavily| SEARCH[Search API]
+  LEGAL -->|EU/UK law corpus| LAW[(Law text store)]
+  DRAFT -->|PDF renderer| PDF[PDF Generator]
+  FILE -->|Form templates| FORMS[(Jurisdiction templates)]
+
+  ORCH -->|progress + artifacts| DB
+  PDF --> DB
+  WEB -->|progress UI| U
+```
+
