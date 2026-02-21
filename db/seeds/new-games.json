@@ -1,0 +1,840 @@
+[
+  {
+    "game": "Warhammer 40,000: Space Marine - Master Crafted Edition",
+    "company": "SEGA",
+    "promise_summary": "[Inference] Marketed as a remaster with notable quality-of-life and graphical improvements, implying a meaningfully improved experience relative to prior releases.",
+    "delivery_gap_summary": "[Fact] SEGA offered Steam purchasers a full refund regardless of playtime (time-limited) after player complaints (including about pricing/value), with a refund window ending July 10, 2025.",
+    "refund_signal": [
+      "Steam-announced full refunds regardless of playtime (time-limited)",
+      "price/value backlash remediation"
+    ],
+    "us_relevance": "Sold on Steam to U.S. consumers; refund guidance includes a U.S. time reference (PST) for the deadline.",
+    "evidence_strength": "strong",
+    "confidence": 92,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1751058922&feed=steam_community_announcements",
+        "published_date": "2025-06-27",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://www.pcgamer.com/games/action/space-marines-underwhelming-remaster-is-getting-an-extended-refund-window-and-a-discount-for-owners-of-the-original/",
+        "published_date": "2025-06-28",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "METAL MAX Xeno Reborn (DLC refunds)",
+    "company": "Kadokawa Games / PQube",
+    "promise_summary": "[Inference] Paid DLC and Digital Deluxe Edition purchases imply the DLC items will function/appear in-game as described.",
+    "delivery_gap_summary": "[Fact] The publisher/developer apologized for a DLC functionality issue (items not appearing in-game), retired the affected DLC/bundle from sale, and stated affected customers are entitled to DLC refunds outside Steam’s standard 14‑day/2‑hour window.",
+    "refund_signal": [
+      "Steam-announced exceptional DLC refunds (outside standard window)",
+      "DLC/bundle retired from sale due to functionality issue"
+    ],
+    "us_relevance": "Sold on Steam to U.S. consumers; refund instructions route through Steam’s refund portal.",
+    "evidence_strength": "strong",
+    "confidence": 90,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1655812848&feed=steam_community_announcements",
+        "published_date": "2022-06-21",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://steamcommunity.com/app/1637230/allnews/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "known"
+  },
+  {
+    "game": "Unforetold: Witchstone",
+    "company": "Spearhead Games",
+    "promise_summary": "[Inference] Early Access buyers reasonably expect ongoing development and that the product will not be put on indefinite hold without clear consumer options.",
+    "delivery_gap_summary": "[Fact] Spearhead Games said development may be put on hold and they are in talks with Valve about enabling refunds past Steam’s normal 2‑hour playtime limit (while also noting Steam’s standard refund policy).",
+    "refund_signal": [
+      "Developer states talks with Valve about special-case refunds past 2 hours",
+      "development put on hold / uncertainty disclosed"
+    ],
+    "us_relevance": "Steam Early Access title available to U.S. consumers; refund discussions relate to Steam purchasers.",
+    "evidence_strength": "medium",
+    "confidence": 70,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1709686201&feed=steam_community_announcements",
+        "published_date": "2024-03-06",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "ELYON",
+    "company": "Kakao Games (inference)",
+    "promise_summary": "[Inference] Purchasers of paid packages reasonably expect those paid entitlements to remain relevant/usable under the announced business model and launch plan.",
+    "delivery_gap_summary": "[Fact] The ELYON team announced a switch to free‑to‑play and a launch delay, removed paid packages from Steam, and directed prior purchasers to request refunds via Steam Support using a specific subject line.",
+    "refund_signal": [
+      "Official notice directs package purchasers to request refunds",
+      "business model change (paid packages removed)",
+      "launch delay"
+    ],
+    "us_relevance": "Steam-distributed title relevant to U.S. consumers; refunds processed through Steam Support.",
+    "evidence_strength": "medium",
+    "confidence": 68,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1631279019&feed=steam_community_announcements",
+        "published_date": "2021-09-10",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "Ys VIII: Lacrimosa of DANA (PC release delay / pre-purchase refunds)",
+    "company": "unknown",
+    "promise_summary": "[Fact] The publisher announced a specific PC release date, creating a release-timing promise for pre-purchasers.",
+    "delivery_gap_summary": "[Fact] The publisher pushed back the PC release date and stated that Steam pre-purchasers could request a refund (as it remained a pre-order at that time).",
+    "refund_signal": [
+      "Official delay announcement",
+      "pre-purchase refund instructions"
+    ],
+    "us_relevance": "Sold via Steam to U.S. consumers; refund pathway is through Steam Support.",
+    "evidence_strength": "medium",
+    "confidence": 65,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1523929085&feed=steam_community_announcements",
+        "published_date": "2017-09-11",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "DUSK (release delay / pre-order refunds)",
+    "company": "unknown",
+    "promise_summary": "[Fact] The developer/publisher set expectations for a near-term release date (\"this year\") for pre-purchasers.",
+    "delivery_gap_summary": "[Fact] The release was delayed and the announcement stated that pre-orders could be refunded at any time (because it was still a pre-order).",
+    "refund_signal": [
+      "Official delay announcement",
+      "pre-order refundable at any time (per announcement)"
+    ],
+    "us_relevance": "Steam title relevant to U.S. consumers; refunds routed through Steam pre-order/refund mechanisms.",
+    "evidence_strength": "medium",
+    "confidence": 70,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1514197211&feed=steam_community_announcements",
+        "published_date": "2017-12-24",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1514197211&appids=519860&feed=steam_community_announcements",
+        "published_date": "2017-12-24",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "Halfwish Playtest",
+    "company": "unknown",
+    "promise_summary": "[Inference] Buyers reasonably expect continued availability of a paid product listed for sale, or clear remediation if distribution is halted.",
+    "delivery_gap_summary": "[Fact] The developer stated their publisher asked Valve to remove the title from sale and encouraged purchasers to request refunds via Steam.",
+    "refund_signal": [
+      "Delisted from sale (publisher request) + refund request encouraged"
+    ],
+    "us_relevance": "Steam-distributed title relevant to U.S. consumers; refund route is Steam Support.",
+    "evidence_strength": "weak",
+    "confidence": 55,
+    "sources": [
+      {
+        "url": "https://store.steampowered.com/news/posts/?enddate=1693351749&appids=2547440&feed=steam_community_announcements",
+        "published_date": "2023-08-29",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "SUPER PEOPLE",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The shutdown notice states that refunds may be restricted for purchases made more than 7 days prior to the service termination notice, in accordance with Steam’s refund policy.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 50,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/battle-royale-super-people-now-shutting-down-on-february-23rd/",
+        "published_date": "2026-02-09",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Dark and Darker (Epic Games Store delisting / Legendary Status refunds)",
+    "company": "unknown",
+    "promise_summary": "[Inference] Purchasers of a paid upgrade (Legendary Status) reasonably expect continued access to that entitlement while the product remains available on the platform.",
+    "delivery_gap_summary": "[Fact (secondary)] A delisting notice states Epic Games Store players who purchased the Legendary Status upgrade will be refunded to the original payment method.",
+    "refund_signal": [
+      "Refunds for paid upgrade (Legendary Status) referenced",
+      "platform delisting/removal referenced"
+    ],
+    "us_relevance": "Epic Games Store is used by U.S. consumers; the refund promise (as reported) would apply to U.S. purchasers on that storefront.",
+    "evidence_strength": "weak",
+    "confidence": 55,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/dark-and-darker-to-be-removed-from-player-libraries-on-epic-games-store-november-1st/",
+        "published_date": "2025-06-17",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Tradie Tapper",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The delisting/shutdown post includes refund eligibility details (e.g., refunds for unused credits as of a specified cutoff time, excluding bonus amounts), with instructions to request/confirm refunds.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/tradie-tapper-shapevasion-leaving-steam-soon-palace-of-unrest-return-alive-leaving-over-coming-months/",
+        "published_date": "2026-01-30",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Shapevasion",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The delisting/shutdown post includes refund eligibility details (e.g., refunds for unused credits as of a specified cutoff time, excluding bonus amounts), with instructions to request/confirm refunds.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/tradie-tapper-shapevasion-leaving-steam-soon-palace-of-unrest-return-alive-leaving-over-coming-months/",
+        "published_date": "2026-01-30",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Palace of Unrest",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The delisting/shutdown post includes refund eligibility details (e.g., refunds for unused credits as of a specified cutoff time, excluding bonus amounts), with instructions to request/confirm refunds.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/tradie-tapper-shapevasion-leaving-steam-soon-palace-of-unrest-return-alive-leaving-over-coming-months/",
+        "published_date": "2026-01-30",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Return Alive",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The delisting/shutdown post includes refund eligibility details (e.g., refunds for unused credits as of a specified cutoff time, excluding bonus amounts), with instructions to request/confirm refunds.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/tradie-tapper-shapevasion-leaving-steam-soon-palace-of-unrest-return-alive-leaving-over-coming-months/",
+        "published_date": "2026-01-30",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Distant Transmission",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states that if players paid for the game and were unable to play, they should reach out regarding a refund.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 50,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/distant-transmission-leaving-steam-soon-already-unplayable/",
+        "published_date": "2026-01-16",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Battle Crush",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post references product sales discontinuation and a forthcoming detailed cancellation/refund announcement (dates/times provided).",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "Steam (and Nintendo Switch)-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/battle-crush-shutting-down-less-than-6-months-after-steam-and-switch-release/",
+        "published_date": "2024-10-27",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Blade & Soul Heroes",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states the full announcement includes details on refunds of recent purchases in connection with the shutdown.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/ncsofts-blade-soul-heroes-shutting-down-on-february-19th/",
+        "published_date": "2025-12-19",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "GigaSlave",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states refunds will be processed for unused paid in‑game currency (\"Paid Magic Stones\") meeting certain criteria tied to service termination dates.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/gigaslave-cosmic-royale-temporarily-removed-from-sale-monster-commanders-shutting-down-january-30th/",
+        "published_date": "2026-01-02",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Cosmic Royale",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states refunds will be processed for unused paid in‑game currency (\"Paid Magic Stones\") meeting certain criteria tied to service termination dates.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/gigaslave-cosmic-royale-temporarily-removed-from-sale-monster-commanders-shutting-down-january-30th/",
+        "published_date": "2026-01-02",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Monster Commanders",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states refunds will be processed for unused paid in‑game currency (\"Paid Magic Stones\") meeting certain criteria tied to service termination dates.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/gigaslave-cosmic-royale-temporarily-removed-from-sale-monster-commanders-shutting-down-january-30th/",
+        "published_date": "2026-01-02",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Paragon",
+    "company": "Epic Games",
+    "promise_summary": "[Inference] Players who made paid purchases in an online-only game reasonably expect service continuity or remediation when the service ends.",
+    "delivery_gap_summary": "[Fact (secondary)] A delisting/shutdown write-up states Epic announced the end of Paragon and offered full refunds for purchases.",
+    "refund_signal": [
+      "Full refunds for purchases referenced",
+      "service shutdown referenced"
+    ],
+    "us_relevance": "Epic operated and sold Paragon content to U.S. consumers; refund program (as reported) would be U.S.-relevant.",
+    "evidence_strength": "weak",
+    "confidence": 60,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/epic-games-announces-the-end-for-paragon-offers-full-refunds/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "Stellar Return",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states that players who purchased the game but have not played more than 2 hours can request a refund through Steam.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/stellar-return/",
+        "published_date": "2025-06-28",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Side Bullet",
+    "company": "unknown",
+    "promise_summary": "[Inference] Purchasers of in-game items reasonably expect those items/services to remain available for some period or to have clear remediation at end-of-service.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states refunds for purchased items will be provided by following Sony Interactive Entertainment’s refund policy at the date of service end.",
+    "refund_signal": [
+      "Refunds for purchased items referenced in end-of-service notice",
+      "platform policy referenced (SIE)"
+    ],
+    "us_relevance": "PlayStation platform is U.S.-relevant; refund language (as reported) references SIE policy.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/side-bullet/",
+        "published_date": "2024-04-26",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "King Arthur: Legends Rise",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post indicates service termination refunds will be announced/handled per a schedule/method provided in future notice(s).",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 40,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/king-arthur-legends-rise-shutting-down-march-12th-sled-together-leaving-steam-soon/",
+        "published_date": "2025-12-09",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Sled Together",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post indicates service termination refunds will be announced/handled per a schedule/method provided in future notice(s).",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 40,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/king-arthur-legends-rise-shutting-down-march-12th-sled-together-leaving-steam-soon/",
+        "published_date": "2025-12-09",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Landmaster",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post urges purchasers to request a refund so they don’t lose money on something that won’t be completed, including guidance if they cannot refund normally.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 50,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/landmaster-leaving-steam-soon/",
+        "published_date": "2025-10-31",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Dual Universe",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post indicates that depending on payment method (e.g., Xsolla), players may need to contact the payment processor to request a refund.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice"
+    ],
+    "us_relevance": "PC/Online-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/dual-universe-shutting-down-august-27th-devs-investigating-open-source-in-response-to-stop-killing-games-movement/",
+        "published_date": "2025-07-26",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Space Punks",
+    "company": "unknown",
+    "promise_summary": "[Inference] Purchasers of in-game items in a live-service title reasonably expect continued service access or remediation when service ends.",
+    "delivery_gap_summary": "[Fact (secondary)] The shutdown post states all players who made purchases are eligible for a refund, with details referenced in an FAQ.",
+    "refund_signal": [
+      "Refund eligibility for all purchasers referenced",
+      "service shutdown referenced"
+    ],
+    "us_relevance": "PC platform title (reported) with refund promise; U.S. players would be included if purchases were made from the U.S.",
+    "evidence_strength": "weak",
+    "confidence": 55,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/space-punks/",
+        "published_date": "2025-03-02",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "DunJumb",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The developer statement (as quoted) encourages purchasers to request a refund via Steam Support, stating the game did not live up to the promises the developer had.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 55,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/jumbstuds-announces-end-of-the-journey-for-dunjumb/",
+        "published_date": "2025-05-13",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Radikal Fighters",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states that, depending on regional regulations and eligibility, some players may receive automatic refunds for recent purchases, and includes guidance for refund inquiries.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "automatic refunds referenced"
+    ],
+    "us_relevance": "Steam/PlayStation-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 45,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/radikal-fighters-on-steam-playstation-5-shutting-down-february-15th/",
+        "published_date": "2025-01-25",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "The Awakening of a Villainous Lady: A Crimson and Pure White Romance",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states that players who purchased the game but have not played more than 2 hours can request a refund through Steam.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 40,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/the-awakening-of-a-villainous-lady-a-crimson-and-pure-white-romance/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Duelyst",
+    "company": "unknown",
+    "promise_summary": "[Inference] Players who paid for in-game items/entitlements in a service-based game reasonably expect continued access or a defined remediation process if the service ends.",
+    "delivery_gap_summary": "[Fact (secondary)] The shutdown post states refund requests must be submitted by a specified deadline (March 30, 2020) to be honored.",
+    "refund_signal": [
+      "Refund request window/deadline referenced",
+      "service shutdown referenced"
+    ],
+    "us_relevance": "Online game with reported refund request process; U.S. consumers who made purchases would be implicated if they played/purchased in the U.S.",
+    "evidence_strength": "weak",
+    "confidence": 55,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/duelyst/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://delistedgames.com/duelyst-shutting-down-february-27th/",
+        "published_date": "unknown",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      }
+    ],
+    "status": "candidate"
+  },
+  {
+    "game": "Crossfire: Legion",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states the game will be delisted on Steam and that refunds will be handled in accordance with Steam’s refund policy.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 40,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/crossfire-legion-to-be-delisted-on-steam-on-august-18th/",
+        "published_date": "2025-07-18",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  },
+  {
+    "game": "Three Kingdoms: The Story of Seeking Generals",
+    "company": "unknown",
+    "promise_summary": "[Inference] Consumers reasonably expect continued access to a game/service for a meaningful period, or clear remediation if access ends earlier than expected.",
+    "delivery_gap_summary": "[Fact (secondary)] The post states the game will be delisted and servers will close, and directs refund-related inquiries to Steam customer service or an official channel.",
+    "refund_signal": [
+      "refunds referenced in shutdown/delist notice",
+      "refunds tied to Steam policy or Steam Support"
+    ],
+    "us_relevance": "Steam-distributed or otherwise accessible to U.S. consumers; refund language is in a publicly posted shutdown/delist notice.",
+    "evidence_strength": "weak",
+    "confidence": 40,
+    "sources": [
+      {
+        "url": "https://delistedgames.com/three-kingdoms-the-story-of-seeking-generals-to-delist-on-steam-and-servers-to-close-june-1st/",
+        "published_date": "2025-05-29",
+        "accessed_date": "2026-02-21",
+        "primary": false
+      },
+      {
+        "url": "https://store.steampowered.com/steam_refunds/",
+        "published_date": "2024-04-23",
+        "accessed_date": "2026-02-21",
+        "primary": true
+      }
+    ],
+    "status": "watchlist"
+  }
+]
